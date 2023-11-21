@@ -3,8 +3,8 @@ public class Main {
 
     }
 
-    double firstNumber;
-    double secondNumber;
+    private double firstNumber;
+    private double secondNumber;
 
 
     public double getFirstNumber() {
@@ -16,22 +16,30 @@ public class Main {
     }
 
     public void setFirstNumber(double firstNumber) {
-
+        this.firstNumber = firstNumber;
     }
 
-    public double setSecondNumber(double secondNumber) {
-
+    public void setSecondNumber(double secondNumber) {
+        this.secondNumber = secondNumber;
     }
 
-    public static void getAdditionResults() {
-
+    public double getAdditionResult() {
+        return firstNumber + secondNumber;
     }
 
-    public static void getMultiplicationResults() {
-
+    public double getSubtractionResult() {
+        return firstNumber - secondNumber;
     }
 
-    public static void getDivisionResults() {
+    public double getMultiplicationResult() {
+        return firstNumber * secondNumber;
+    }
 
+    public double getDivisionResult() {
+        if (secondNumber == 0) {
+            return 0;
+        } else {
+            return firstNumber / secondNumber;
+        }
     }
 }
