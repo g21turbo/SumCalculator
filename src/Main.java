@@ -3,22 +3,35 @@ public class Main {
 
     }
 
+    double firstNumber;
+    double secondNumber;
 
-    public static void getFirstNumber() {
+
+    public double getFirstNumber() {
+        return firstNumber;
+    }
+
+    public double getSecondNumber() {
+        return secondNumber;
+    }
+
+    public void setFirstNumber(double firstNumber) {
 
     }
 
-    public static void getSecondNumber() {
+    public double setSecondNumber(double secondNumber) {
 
     }
 
-    public static void setFirstNumber(double setFirstNumber) {
+    public static void getAdditionResults() {
 
     }
 
-    public static void setSecondNumber(double setSecondNumber) {
+    public static void getMultiplicationResults() {
 
     }
 
+    public static void getDivisionResults() {
 
+    }
 }
